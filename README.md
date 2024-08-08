@@ -45,7 +45,7 @@ Specifically, there is:
 ## Getting Started
 
 ### Installation
-Please refer [here](https://github.com/Jwoo5/fairseq-signals).
+Clone [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) and refer to the requirements and installation section in the top-level README.
 
 ### Data Preparation
 We implemented a flexible, end-to-end, multi-source data preprocessing pipeline. Please refer to it [here](https://github.com/Jwoo5/fairseq-signals/tree/master/scripts/preprocess/ecg).
