@@ -11,7 +11,7 @@
 
 --------------------------------------------------------------------------------
 
-ECG-FM is a foundation model for electrocardogram (ECG) analysis. Committed to open-source practices, ECG-FM was developed in collaboration with the [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) framework, which implements a collection of deep learning methods for ECG analysis. This repository serves as a landing page and will host project-specific scripts as this work progresses.
+ECG-FM is a foundation model for electrocardiogram (ECG) analysis. Committed to open-source practices, ECG-FM was developed in collaboration with the [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) framework, which implements a collection of deep learning methods for ECG analysis. This repository serves as a landing page and will host project-specific scripts as this work progresses.
 
 <div align="center">
   <img src="docs/saliency.png" width="500">
