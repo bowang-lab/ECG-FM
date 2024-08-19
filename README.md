@@ -50,8 +50,7 @@ Clone [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) and refer to t
 ### Data Preparation
 We implemented a flexible, end-to-end, multi-source data preprocessing pipeline. Please refer to it [here](https://github.com/Jwoo5/fairseq-signals/tree/master/scripts/preprocess/ecg).
 
-### Inference
-
+### Inference & Model Loading
 See our [inference tutorial notebook](inference_tutorial.ipynb)!
 
 ### Training
