@@ -3,7 +3,7 @@
   <br />
   <br />
   <a href="https://github.com/bowang-lab/ECG-FM/blob/main/LICENSE/"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
-  <a href="TODO"><img alt="arxiv" src="https://img.shields.io/badge/cs.LG-1408.3644-b31b1b?logo=arxiv&logoColor=red"/></a>
+  <a href="https://arxiv.org/abs/2408.05178"><img alt="arxiv" src="https://img.shields.io/badge/cs.LG-2408.05178-b31b1b?logo=arxiv&logoColor=red"/></a>
   <!-- https://academia.stackexchange.com/questions/27341/flair-badge-for-arxiv-paper -->
   <!-- https://img.shields.io/badge/<SUBJECT>-<IDENTIFIER>-<COLOR>?logo=<SIMPLEICONS NAME>&logoColor=<LOGO COLOR> -->
 
@@ -18,11 +18,11 @@ ECG-FM is a foundation model for electrocardiogram (ECG) analysis. Committed to 
 </div>
 
 ## News
-- 2024-TODO: ECG-FM arxiv & GitHub released
+- 2024-08-12: ECG-FM arxiv & GitHub released
 
 ## Model Details
 
-ECG-FM adopts the wav2vec 2.0 architecture and was pretrained using the W2V+CMSC+RLM (WCR) method. It has 311,940,352 parameters and was trained using 4 NVIDIA A100 80GB GPUs over 16.5 days. For our transformer encoder, we selected hyperparameters consistent with a BERT-Large encoder. Further details are available in our [paper](TODO).
+ECG-FM adopts the wav2vec 2.0 architecture and was pretrained using the W2V+CMSC+RLM (WCR) method. It has 311,940,352 parameters and was trained using 4 NVIDIA A100 80GB GPUs over 16.5 days. For our transformer encoder, we selected hyperparameters consistent with a BERT-Large encoder. Further details are available in our [paper](https://arxiv.org/abs/2408.05178).
 
 <div align="center">
   <img src="docs/architecture.png" width="750">
