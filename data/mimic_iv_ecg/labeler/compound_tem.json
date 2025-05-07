@@ -1,0 +1,92 @@
+[
+  {
+    "entity": "Supraventricular tachycardia with aberrancy",
+    "including": [
+      {
+        "tem": "Supraventricular tachycardia",
+        "descriptors": []
+      },
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      }
+    ],
+    "excluding": []
+  },
+  {
+    "entity": "Supraventricular tachycardia with aberrancy",
+    "including": [
+      {
+        "tem": "Bundle branch block",
+        "descriptors": []
+      },
+      {
+        "tem": "Tachycardia",
+        "descriptors": []
+      }
+    ],
+    "excluding": [
+      {
+        "tem": "Ventricular tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "entity": "Supraventricular tachycardia with aberrancy",
+    "including": [
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      },
+      {
+        "tem": "Tachycardia",
+        "descriptors": []
+      }
+    ],
+    "excluding": [
+      {
+        "tem": "Ventricular tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "entity": "Paroxysmal supraventricular tachycardia",
+    "including": [
+      {
+        "tem": "Supraventricular tachycardia",
+        "descriptors": [
+          "Paroxysmal"
+        ]
+      }
+    ],
+    "excluding": []
+  },
+  {
+    "entity": "Paroxysmal atrial tachycardia",
+    "including": [
+      {
+        "tem": "Atrial tachycardia",
+        "descriptors": [
+          "Paroxysmal"
+        ]
+      }
+    ],
+    "excluding": []
+  },
+  {
+    "entity": "Bifascicular block",
+    "including": [
+      {
+        "tem": "Right bundle branch block",
+        "descriptors": []
+      },
+      {
+        "tem": "Fascicular block",
+        "descriptors": []
+      }
+    ],
+    "excluding": []
+  }
+]

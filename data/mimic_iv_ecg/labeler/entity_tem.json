@@ -1,0 +1,2658 @@
+[
+  {
+    "name": "Electrocardiogram",
+    "aka": [
+      "ECG"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Pediatric",
+    "require_descriptors": false
+  },
+  {
+    "name": "Normal electrocardiogram",
+    "sup": [
+      "Electrocardiogram"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Abnormal electrocardiogram",
+    "sup": [
+      "Electrocardiogram"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Borderline electrocardiogram",
+    "sup": [
+      "Electrocardiogram"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Normal electrocardiogram except for rate",
+    "sup": [
+      "Electrocardiogram"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Heart rate",
+    "aka": [
+      "HR"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Low heart rate",
+    "sup": [
+      "Heart rate"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "High heart rate",
+    "sup": [
+      "Heart rate"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Difficulty interpreting",
+    "require_descriptors": false
+  },
+  {
+    "name": "Poor data quality",
+    "sup": [
+      "Difficulty interpreting"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Cannot adequately assess",
+    "sup": [
+      "Poor data quality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact",
+    "sup": [
+      "Poor data quality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead misplacement",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead reversal",
+    "sup": [
+      "Lead misplacement",
+      "Cannot adequately assess"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Limb lead reversal",
+    "sup": [
+      "Lead reversal"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Arm lead reversal",
+    "sup": [
+      "Limb lead reversal"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing leads/data",
+    "sup": [
+      "Poor data quality",
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead not used for morphology analysis",
+    "sup": [
+      "Poor data quality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead unsuitable for analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead",
+    "sup": [
+      "Missing leads/data"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead",
+    "sup": [
+      "Missing leads/data"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead",
+    "sup": [
+      "Lead unsuitable for analysis",
+      "Artifact"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead sequence error",
+    "sup": [
+      "Lead misplacement"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead I unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead I",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead I",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead I",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead I",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead I not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead II unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead II",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead II",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead II",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead II",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead II not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead III unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead III",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead III",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead III",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead III not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead AVL unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead AVL",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead AVL",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead AVL",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead AVL not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead AVR unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead AVR",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead AVR",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead AVR",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead AVR",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead AVR not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead AVF unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead AVF",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead AVF",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead AVF",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead AVF not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V1 unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead V1",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead V1",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead V1",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead V1",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V1 not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V2 unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead V2",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead V2",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead V2",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead V2",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V2 omitted due to sequence error",
+    "sup": [
+      "Lead sequence error"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V3 unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead V3",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead V3",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead V3",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead V3",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V3 omitted due to sequence error",
+    "sup": [
+      "Lead sequence error"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V4 unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead V4",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead V4",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead V4",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead V4",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V4 not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V4 omitted due to sequence error",
+    "sup": [
+      "Lead sequence error"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V5 unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead V5",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead V5",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead V5",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead V5",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V5 not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V5 omitted due to sequence error",
+    "sup": [
+      "Lead sequence error"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V6 unsuitable for analysis",
+    "sup": [
+      "Lead unsuitable for analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Missing lead V6",
+    "sup": [
+      "Missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Partial missing lead V6",
+    "sup": [
+      "Partial missing lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Artifact in lead V6",
+    "sup": [
+      "Artifact in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Baseline wander in lead V6",
+    "sup": [
+      "Baseline wander in lead"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lead V6 not used for morphology analysis",
+    "sup": [
+      "Lead not used for morphology analysis"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Low QRS voltage",
+    "aka": [
+      "LQRSV"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "High QRS voltage",
+    "require_descriptors": false
+  },
+  {
+    "name": "Left atrial abnormality",
+    "sup": [
+      "Abnormal electrocardiogram"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right atrial abnormality",
+    "sup": [
+      "Abnormal electrocardiogram"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Biatrial abnormality",
+    "sup": [
+      "Left atrial abnormality",
+      "Right atrial abnormality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Beat",
+    "require_descriptors": true
+  },
+  {
+    "name": "Wave",
+    "require_descriptors": true
+  },
+  {
+    "name": "T wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "T wave abnormality",
+    "sup": [
+      "T wave"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Nonspecific T wave abnormality",
+    "sup": [
+      "T wave abnormality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "T wave inversion",
+    "sup": [
+      "T wave"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Tall T wave",
+    "sup": [
+      "T wave abnormality"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "ST wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "ST wave abnormality",
+    "sup": [
+      "ST wave"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Nonspecific ST wave abnormality",
+    "sup": [
+      "ST wave abnormality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "ST depression",
+    "sup": [
+      "ST wave abnormality"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Reciprocal ST depression",
+    "sup": [
+      "ST depression"
+    ],
+    "aka": [
+      "RSTD"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "ST elevation",
+    "sup": [
+      "ST wave abnormality"
+    ],
+    "aka": [
+      "STE"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "ST-T wave abnormality",
+    "sup": [
+      "ST wave abnormality",
+      "T wave abnormality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Nonspecific ST-T wave abnormality",
+    "sup": [
+      "ST-T wave abnormality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Digitalis effect",
+    "sup": [
+      "ST-T wave abnormality"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "J point",
+    "require_descriptors": true
+  },
+  {
+    "name": "J wave",
+    "sup": [
+      "J point"
+    ],
+    "aka": [
+      "Osborn wave",
+      "J point elevation"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "J wave syndrome",
+    "sup": [
+      "J wave"
+    ],
+    "aka": [
+      "JWS"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "R wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "R wave abnormality",
+    "sup": [
+      "R wave"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Abnormal R wave progression",
+    "sup": [
+      "R wave abnormality"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Poor R wave progression",
+    "sup": [
+      "Abnormal R wave progression"
+    ],
+    "aka": [
+      "PRWP",
+      "Delayed R wave progression"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Early R wave transition",
+    "sup": [
+      "R wave abnormality"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Late R wave transition",
+    "sup": [
+      "R wave abnormality"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Tall R wave",
+    "sup": [
+      "R wave abnormality"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "P wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Missing QRS complexes",
+    "require_descriptors": false
+  },
+  {
+    "name": "Nonconducted P wave",
+    "sup": [
+      "Missing QRS complexes",
+      "P wave"
+    ],
+    "aka": [
+      "Dropped P wave",
+      "Blocked P wave",
+      "Dropped beat",
+      "Dropped QRS complex"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Tall inferior P wave",
+    "sup": [
+      "P wave"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "U wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Q wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "S wave",
+    "sup": [
+      "Wave"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Delta wave",
+    "sup": [
+      "Wave"
+    ],
+    "aka": [
+      "Slurred upstroke",
+      "Slurring upstroke"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "QRS complex",
+    "require_descriptors": true
+  },
+  {
+    "name": "QRS changes",
+    "sup": [
+      "QRS complex"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Wide QRS complex",
+    "sup": [
+      "QRS complex"
+    ],
+    "aka": [
+      "QRS widening"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Narrow QRS complex",
+    "sup": [
+      "QRS complex"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "QRS axis",
+    "require_descriptors": true
+  },
+  {
+    "name": "Indeterminate axis",
+    "sup": [
+      "QRS axis"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "QRS axis deviation",
+    "sup": [
+      "QRS axis"
+    ],
+    "require_descriptors": true,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Right axis deviation",
+    "sup": [
+      "QRS axis deviation"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Left axis deviation",
+    "sup": [
+      "QRS axis deviation"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Extreme axis deviation",
+    "sup": [
+      "QRS axis deviation"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Interval",
+    "require_descriptors": true
+  },
+  {
+    "name": "QT interval",
+    "sup": [
+      "Interval"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Prolonged QT interval",
+    "sup": [
+      "QT interval"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Short QT interval",
+    "sup": [
+      "QT interval"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Borderline QT interval",
+    "sup": [
+      "QT interval"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "PR interval",
+    "sup": [
+      "Interval"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Prolonged PR interval",
+    "sup": [
+      "PR interval"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Short PR interval",
+    "sup": [
+      "PR interval"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Progressive PR prolongation",
+    "sup": [
+      "Prolonged PR interval"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Rapid ventricular response",
+    "aka": [
+      "RVR",
+      "Rapid ventricular rate"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Slow ventricular response",
+    "aka": [
+      "SVR",
+      "Slow ventricular rate"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Uncontrolled ventricular response",
+    "require_descriptors": false
+  },
+  {
+    "name": "RSR' pattern",
+    "sup": [
+      "S wave"
+    ],
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "QR pattern",
+    "require_descriptors": false,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "name": "Pulmonary disease",
+    "require_descriptors": false
+  },
+  {
+    "name": "Rhythm",
+    "require_descriptors": true
+  },
+  {
+    "name": "Sinus rhythm",
+    "sup": [
+      "Rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus arrhythmia",
+    "sup": [
+      "Sinus rhythm"
+    ],
+    "aka": [
+      "SA",
+      "Respiratory sinus arrhythmia",
+      "RSA"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Arrhythmia",
+    "sup": [
+      "Rhythm"
+    ],
+    "aka": [
+      "Dysrhythmia",
+      "Rhythm disorder"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Undetermined rhythm",
+    "sup": [
+      "Arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Undetermined irregularity",
+    "sup": [
+      "Arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Irregular rate",
+    "sup": [
+      "Arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ventricular rhythm",
+    "sup": [
+      "Arrhythmia"
+    ],
+    "aka": [
+      "VA",
+      "Ventricular arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Supraventricular rhythm",
+    "sup": [
+      "Arrhythmia"
+    ],
+    "aka": [
+      "Supraventricular arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrial rhythm",
+    "sup": [
+      "Supraventricular rhythm"
+    ],
+    "aka": [
+      "Atrial arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Junctional rhythm",
+    "sup": [
+      "Supraventricular rhythm"
+    ],
+    "aka": [
+      "Junctional arrhythmia",
+      "Atrioventricular junctional rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopy",
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic contraction",
+    "sup": [
+      "Ectopy"
+    ],
+    "aka": [
+      "Extrasystole"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic rhythm",
+    "sup": [
+      "Ectopic contraction",
+      "Arrhythmia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic ventricular contraction",
+    "sup": [
+      "Ectopic contraction"
+    ],
+    "aka": [
+      "VEB",
+      "Ventricular ectopic beat"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic supraventricular contraction",
+    "sup": [
+      "Ectopic contraction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic supraventricular rhythm",
+    "sup": [
+      "Ectopic supraventricular contraction",
+      "Supraventricular rhythm",
+      "Ectopic rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic atrial contraction",
+    "sup": [
+      "Ectopic supraventricular contraction"
+    ],
+    "aka": [
+      "Atrial ectopic beat"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic atrial rhythm",
+    "sup": [
+      "Ectopic atrial contraction",
+      "Atrial rhythm",
+      "Ectopic supraventricular rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Wandering atrial pacemaker",
+    "sup": [
+      "Ectopic atrial rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Premature contraction",
+    "sup": [
+      "Ectopic contraction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Premature ventricular contraction",
+    "sup": [
+      "Ectopic ventricular contraction",
+      "Premature contraction"
+    ],
+    "aka": [
+      "PVC",
+      "Premature ventricular complex",
+      "VPB",
+      "Ventricular premature beat"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Premature supraventricular contraction",
+    "sup": [
+      "Ectopic supraventricular contraction",
+      "Premature contraction"
+    ],
+    "aka": [
+      "PSC",
+      "SVPB",
+      "Supraventricular premature beat"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Premature atrial contraction",
+    "sup": [
+      "Ectopic atrial contraction",
+      "Premature supraventricular contraction"
+    ],
+    "aka": [
+      "PAC",
+      "Premature atrial complex",
+      "APB",
+      "Atrial premature beat",
+      "APC",
+      "Atrial premature complex",
+      "Atrial premature complex"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Escape contraction",
+    "sup": [
+      "Ectopic contraction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ventricular escape contraction",
+    "sup": [
+      "Ectopic ventricular contraction",
+      "Escape contraction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Bigeminy",
+    "sup": [
+      "Ectopic rhythm"
+    ],
+    "aka": [
+      "Bigeminal rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Trigeminy",
+    "sup": [
+      "Ectopic rhythm"
+    ],
+    "aka": [
+      "Trigeminal rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Idioventricular rhythm",
+    "sup": [
+      "Ventricular rhythm",
+      "Bradycardia"
+    ],
+    "aka": [
+      "IVR",
+      "Slow ventricular tachycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Accelerated idioventricular rhythm",
+    "sup": [
+      "Ventricular rhythm"
+    ],
+    "aka": [
+      "AIVR",
+      "Accelerated ventricular rhythm",
+      "AVR"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Tachycardia",
+    "sup": [
+      "High heart rate",
+      "Arrhythmia"
+    ],
+    "aka": [
+      "Tachyarrhythmia",
+      "Tachy",
+      "Tach"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus tachycardia",
+    "sup": [
+      "Tachycardia",
+      "Sinus rhythm"
+    ],
+    "aka": [
+      "Stach"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Reentry tachycardia",
+    "sup": [
+      "Reentry",
+      "Tachycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Wide complex tachycardia",
+    "sup": [
+      "Tachycardia",
+      "Wide QRS complex"
+    ],
+    "aka": [
+      "WCT"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Narrow complex tachycardia",
+    "sup": [
+      "Tachycardia",
+      "Narrow QRS complex"
+    ],
+    "aka": [
+      "NCT"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ventricular tachycardia",
+    "sup": [
+      "Ventricular rhythm",
+      "Tachycardia"
+    ],
+    "aka": [
+      "VT"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Supraventricular tachycardia",
+    "sup": [
+      "Supraventricular rhythm",
+      "Tachycardia"
+    ],
+    "aka": [
+      "SVT",
+      "Supraventricular tachyarrhythmia",
+      "SVTA"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Supraventricular tachycardia with aberrancy",
+    "sup": [
+      "Supraventricular tachycardia",
+      "Aberrant ventricular conduction"
+    ],
+    "aka": [
+      "SVT with aberrancy",
+      "SVTab"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Paroxysmal supraventricular tachycardia",
+    "sup": [
+      "Supraventricular tachycardia"
+    ],
+    "aka": [
+      "PSVT",
+      "paroxysmal SVT"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrial tachycardia",
+    "sup": [
+      "Atrial rhythm",
+      "Supraventricular tachycardia",
+      "Narrow complex tachycardia"
+    ],
+    "aka": [
+      "AT",
+      "Atach"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic atrial tachycardia",
+    "sup": [
+      "Atrial tachycardia",
+      "Ectopic atrial rhythm"
+    ],
+    "aka": [
+      "AT",
+      "Atach",
+      "EAT",
+      "Ectopic atrial tachycardia",
+      "AET",
+      "Atrial ectopic tachycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Paroxysmal atrial tachycardia",
+    "sup": [
+      "Atrial tachycardia",
+      "Paroxysmal supraventricular tachycardia"
+    ],
+    "aka": [
+      "PAT"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrial fibrillation",
+    "sup": [
+      "Atrial rhythm",
+      "Tachycardia",
+      "Reentry"
+    ],
+    "aka": [
+      "AF",
+      "AFib"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Macro-reentry atrial tachycardia",
+    "sup": [
+      "Atrial tachycardia",
+      "Reentry tachycardia"
+    ],
+    "aka": [
+      "MRAT",
+      "Macroreentrant atrial tachycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrial flutter",
+    "sup": [
+      "Macro-reentry atrial tachycardia"
+    ],
+    "aka": [
+      "AFl"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Junctional tachycardia",
+    "sup": [
+      "Junctional rhythm",
+      "Tachycardia"
+    ],
+    "aka": [
+      "JT"
+    ],
+    "require_descriptors": false,
+    "feature": [
+      "Abnormal P wave axis",
+      "Short PR interval"
+    ]
+  },
+  {
+    "name": "Accelerated junctional rhythm",
+    "sup": [
+      "Junctional rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Bradycardia",
+    "sup": [
+      "Low heart rate",
+      "Arrhythmia"
+    ],
+    "aka": [
+      "Bradyarrhythmia",
+      "Brady"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus bradycardia",
+    "sup": [
+      "Bradycardia",
+      "Sinus rhythm"
+    ],
+    "aka": [
+      "SBR"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Junctional bradycardia",
+    "sup": [
+      "Junctional rhythm",
+      "Bradycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrial bradycardia",
+    "sup": [
+      "Atrial rhythm",
+      "Bradycardia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ectopic atrial bradycardia",
+    "sup": [
+      "Atrial bradycardia",
+      "Ectopic atrial rhythm"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Conduction",
+    "require_descriptors": true
+  },
+  {
+    "name": "Conduction defect",
+    "sup": [
+      "Conduction"
+    ],
+    "aka": [
+      "Conduction abnormality",
+      "Conduction disorder",
+      "Conduction disturbance"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Intraventricular conduction defect",
+    "sup": [
+      "Conduction defect"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Aberrant ventricular conduction",
+    "sup": [
+      "Conduction defect"
+    ],
+    "aka": [
+      "Aberrant conduction",
+      "Aberrancy",
+      "Aberration",
+      "Aberrated",
+      "Aberrant",
+      "Aberrantly conducted QRS complexes",
+      "QRS aberrancy"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Bundle branch block aberrancy",
+    "sup": [
+      "Aberrant ventricular conduction"
+    ],
+    "aka": [
+      "BBB aberration",
+      "BBB aberrancy"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right bundle branch block aberrancy",
+    "sup": [
+      "Bundle branch block aberrancy"
+    ],
+    "aka": [
+      "RBBB aberration",
+      "RBBB aberrancy"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Left bundle branch block aberrancy",
+    "sup": [
+      "Bundle branch block aberrancy"
+    ],
+    "aka": [
+      "LBBB aberration",
+      "LBBB aberrancy"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Accessory pathway conduction",
+    "sup": [
+      "Conduction defect"
+    ],
+    "aka": [
+      "Accessory pathway",
+      "AP",
+      "Abnormal pathway",
+      "Atrioventricular bypass"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Preexcitation syndrome",
+    "sup": [
+      "Accessory pathway conduction"
+    ],
+    "aka": [
+      "PES",
+      "Ventricular preexcitation syndrome",
+      "VP",
+      "Ventricular preexcitation",
+      "Preexcitation"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Wolff-Parkinson-White syndrome",
+    "sup": [
+      "Preexcitation syndrome"
+    ],
+    "aka": [
+      "WPW"
+    ],
+    "require_descriptors": false,
+    "hallmark": [
+      "Short PR interval",
+      "Delta wave",
+      "Wide QRS complex"
+    ]
+  },
+  {
+    "name": "Wolff-Parkinson-White type A",
+    "sup": [
+      "Wolff-Parkinson-White syndrome"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Wolff-Parkinson-White type B",
+    "sup": [
+      "Wolff-Parkinson-White syndrome"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Reentry",
+    "sup": [
+      "Arrhythmia",
+      "Accessory pathway conduction"
+    ],
+    "aka": [
+      "Reentry arrhythmia",
+      "Reentrant excitation",
+      "Reentry pathway",
+      "Reentry circuit"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Conduction delay",
+    "sup": [
+      "Conduction defect"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ventricular conduction delay",
+    "sup": [
+      "Conduction delay"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Intraventricular conduction delay",
+    "sup": [
+      "Ventricular conduction delay",
+      "Intraventricular conduction defect"
+    ],
+    "aka": [
+      "IVCD"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Nonspecific intraventricular conduction delay",
+    "sup": [
+      "Intraventricular conduction delay"
+    ],
+    "aka": [
+      "NICD"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right ventricular conduction delay",
+    "sup": [
+      "Ventricular conduction delay"
+    ],
+    "aka": [
+      "Right VCD",
+      "Right ventricular conduction defect"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right bundle branch conduction delay",
+    "sup": [
+      "Right ventricular conduction delay"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrioventricular conduction delay",
+    "sup": [
+      "Conduction delay"
+    ],
+    "aka": [
+      "Prolonged atrioventricular conduction",
+      "Prolonged atrioventricular interval"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Conduction block",
+    "sup": [
+      "Conduction defect"
+    ],
+    "aka": [
+      "Block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrioventricular block",
+    "sup": [
+      "Conduction block"
+    ],
+    "aka": [
+      "HB",
+      "Heart block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Incomplete atrioventricular block",
+    "sup": [
+      "Atrioventricular block",
+      "Atrioventricular conduction delay"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "1st degree atrioventricular block",
+    "sup": [
+      "Incomplete atrioventricular block"
+    ],
+    "aka": [
+      "1dAVB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "2nd degree atrioventricular block",
+    "sup": [
+      "Incomplete atrioventricular block"
+    ],
+    "aka": [
+      "2dAVB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Variable atrioventricular block",
+    "sup": [
+      "2nd degree atrioventricular block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "High grade atrioventricular block",
+    "sup": [
+      "2nd degree atrioventricular block",
+      "Slow ventricular response"
+    ],
+    "aka": [
+      "HAVB",
+      "Advanced atrioventricular block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "2:1 conduction ratio",
+    "sup": [
+      "2nd degree atrioventricular block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "3:1 conduction ratio",
+    "sup": [
+      "High grade atrioventricular block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "4:1 conduction ratio",
+    "sup": [
+      "High grade atrioventricular block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrioventricular Mobitz type 1 block",
+    "sup": [
+      "2nd degree atrioventricular block",
+      "Nonconducted P wave",
+      "Progressive PR prolongation"
+    ],
+    "aka": [
+      "Wenckebach block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrioventricular Mobitz type 2 block",
+    "sup": [
+      "2nd degree atrioventricular block",
+      "Nonconducted P wave"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "3rd degree atrioventricular block",
+    "sup": [
+      "Atrioventricular block",
+      "Atrioventricular dissociation",
+      "Bradycardia"
+    ],
+    "aka": [
+      "CHB",
+      "Complete heart block",
+      "Complete HB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Intraventricular block",
+    "sup": [
+      "Conduction block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Fascicular block",
+    "sup": [
+      "Intraventricular block"
+    ],
+    "aka": [
+      "Hemiblock"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Left anterior fascicular block",
+    "sup": [
+      "Fascicular block"
+    ],
+    "aka": [
+      "LAFB",
+      "Left anterior hemiblock",
+      "LAHB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Left posterior fascicular block",
+    "sup": [
+      "Fascicular block"
+    ],
+    "aka": [
+      "LPFB",
+      "Left posterior hemiblock",
+      "LPHB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Bifascicular block",
+    "sup": [
+      "Right bundle branch block",
+      "Fascicular block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Bundle branch block",
+    "sup": [
+      "Intraventricular block",
+      "Bundle branch block aberrancy"
+    ],
+    "aka": [
+      "BBB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Incomplete bundle branch block",
+    "sup": [
+      "Bundle branch block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right bundle branch block",
+    "sup": [
+      "Bundle branch block",
+      "Right bundle branch block aberrancy"
+    ],
+    "aka": [
+      "RBBB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Incomplete right bundle branch block",
+    "sup": [
+      "Right bundle branch block",
+      "Right bundle branch conduction delay",
+      "Incomplete bundle branch block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Left bundle branch block",
+    "sup": [
+      "Bundle branch block",
+      "Left bundle branch block aberrancy"
+    ],
+    "aka": [
+      "LBBB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Incomplete left bundle branch block",
+    "sup": [
+      "Left bundle branch block",
+      "Ventricular conduction delay",
+      "Incomplete bundle branch block"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus node dysfunction",
+    "sup": [
+      "Conduction defect"
+    ],
+    "aka": [
+      "SND",
+      "SSS",
+      "Sick sinus syndrome",
+      "Sick sinus node"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus block",
+    "sup": [
+      "Conduction block",
+      "Sinus node dysfunction"
+    ],
+    "aka": [
+      "Sinoatrial block",
+      "Sinus exit block",
+      "Sinus entrance block",
+      "SAEB"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sinus pause",
+    "sup": [
+      "Sinus node dysfunction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Left atrial enlargement",
+    "aka": [
+      "LAE"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right atrial enlargement",
+    "aka": [
+      "RAE"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Hypertrophy",
+    "require_descriptors": false
+  },
+  {
+    "name": "Ventricular hypertrophy",
+    "sup": [
+      "Hypertrophy"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Left ventricular hypertrophy",
+    "sup": [
+      "Ventricular hypertrophy"
+    ],
+    "aka": [
+      "LVH"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Right ventricular hypertrophy",
+    "sup": [
+      "Ventricular hypertrophy"
+    ],
+    "aka": [
+      "RVH"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Biventricular hypertrophy",
+    "sup": [
+      "Left ventricular hypertrophy",
+      "Right ventricular hypertrophy"
+    ],
+    "aka": [
+      "BVH"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Hypertension",
+    "require_descriptors": false
+  },
+  {
+    "name": "Cardiomyopathy",
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrioventricular dissociation",
+    "sup": [
+      "Conduction defect"
+    ],
+    "aka": [
+      "AVD"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ischemia",
+    "aka": [
+      "Ischaemia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Inferior ischemia",
+    "sup": [
+      "Ischemia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lateral ischemia",
+    "sup": [
+      "Ischemia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Anterior ischemia",
+    "sup": [
+      "Ischemia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Septal ischemia",
+    "sup": [
+      "Ischemia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Injury",
+    "sup": [
+      "Ischemia"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Inferior injury",
+    "sup": [
+      "Inferior ischemia",
+      "Injury"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lateral injury",
+    "sup": [
+      "Lateral ischemia",
+      "Injury"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Anterior injury",
+    "sup": [
+      "Anterior ischemia",
+      "Injury"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Septal injury",
+    "sup": [
+      "Septal ischemia",
+      "Injury"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Infarction",
+    "sup": [
+      "Injury"
+    ],
+    "aka": [
+      "Myocardial infarction",
+      "MI",
+      "Infarct",
+      "Heart attack"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Infarction extension",
+    "sup": [
+      "Infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Acute coronary syndrome",
+    "aka": [
+      "ACS"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Infarction, acute",
+    "sup": [
+      "Infarction",
+      "Acute coronary syndrome"
+    ],
+    "aka": [
+      "AMI",
+      "Acute myocardial infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "STEMI",
+    "sup": [
+      "Infarction, acute",
+      "ST elevation"
+    ],
+    "aka": [
+      "ST-elevation myocardial infarction",
+      "STE-ACS",
+      "ST-elevation acute coronary syndrome"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Inferior infarction",
+    "sup": [
+      "Inferior injury",
+      "Infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Lateral infarction",
+    "sup": [
+      "Lateral injury",
+      "Infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Anterior infarction",
+    "sup": [
+      "Anterior injury",
+      "Infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Septal infarction",
+    "sup": [
+      "Septal injury",
+      "Infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Posterior extension",
+    "sup": [
+      "Infarction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Repolarization abnormality",
+    "require_descriptors": false
+  },
+  {
+    "name": "Early repolarization syndrome",
+    "sup": [
+      "Cardiac channelopathy",
+      "Repolarization abnormality",
+      "J wave syndrome"
+    ],
+    "aka": [
+      "ERS",
+      "Early repolarization",
+      "ER",
+      "Benign early repolarization",
+      "BER"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Cardiac channelopathy",
+    "aka": [
+      "Ion channel disorder"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Needs clinical correlation",
+    "require_descriptors": false
+  },
+  {
+    "name": "Suggest assess electrolytes",
+    "sup": [
+      "Needs clinical correlation"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Hyperkalemia",
+    "sup": [
+      "J wave syndrome",
+      "Suggest assess electrolytes"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Hypercalcemia",
+    "sup": [
+      "Suggest assess electrolytes"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Hypocalcemia",
+    "sup": [
+      "Suggest assess electrolytes"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Congenital heart disease",
+    "require_descriptors": false
+  },
+  {
+    "name": "Valvular heart disease",
+    "require_descriptors": false
+  },
+  {
+    "name": "Pericarditis",
+    "require_descriptors": false
+  },
+  {
+    "name": "Dextrocardia",
+    "require_descriptors": false
+  },
+  {
+    "name": "Intracranial pathology",
+    "require_descriptors": false
+  },
+  {
+    "name": "Cerebrovascular accident",
+    "sup": [
+      "Intracranial pathology"
+    ],
+    "aka": [
+      "CVA"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Electronic pacemaker",
+    "aka": [
+      "Artificial pacemaker"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Electronic pacemaker artifact",
+    "sup": [
+      "Electronic pacemaker"
+    ],
+    "aka": [
+      "Pacer artifact"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Electronic pacemaker spike",
+    "sup": [
+      "Electronic pacemaker artifact"
+    ],
+    "aka": [
+      "Pacer spike"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Fusion complex",
+    "sup": [
+      "Electronic pacemaker"
+    ],
+    "aka": [
+      "Electronic pacemaker fusion",
+      "Fused complex"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Pacing",
+    "sup": [
+      "Electronic pacemaker"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Demand pacing",
+    "sup": [
+      "Pacing"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ventricular pacing",
+    "sup": [
+      "Pacing"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrial pacing",
+    "sup": [
+      "Pacing"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Dual-chamber pacing",
+    "sup": [
+      "Ventricular pacing",
+      "Atrial pacing"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Atrioventricular sequential pacing",
+    "sup": [
+      "Dual-chamber pacing"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Sensing",
+    "sup": [
+      "Electronic pacemaker"
+    ],
+    "require_descriptors": true
+  },
+  {
+    "name": "Atrial sensing",
+    "sup": [
+      "Sensing"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Electronic pacemaker malfunction",
+    "sup": [
+      "Electronic pacemaker"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Ineffective stimuli",
+    "sup": [
+      "Electronic pacemaker malfunction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Loss of sensing",
+    "sup": [
+      "Electronic pacemaker malfunction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "Loss of capture",
+    "sup": [
+      "Electronic pacemaker malfunction"
+    ],
+    "require_descriptors": false
+  },
+  {
+    "name": "QRS changes V3/V4",
+    "require_descriptors": false
+  }
+]

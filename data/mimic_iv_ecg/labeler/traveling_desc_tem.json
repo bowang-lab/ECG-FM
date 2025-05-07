@@ -1,0 +1,28 @@
+[
+  {
+    "entity": "Ectopic contraction",
+    "descriptors": [
+      "Multiple"
+    ]
+  },
+  {
+    "entity": "Ischemia",
+    "descriptors": [
+      "Acute"
+    ]
+  },
+  {
+    "entity": "Infarction",
+    "descriptors": [
+      "Age undetermined",
+      "Old",
+      "Recent"
+    ]
+  },
+  {
+    "entity": "Atrioventricular block",
+    "descriptors": [
+      "2nd degree"
+    ]
+  }
+]

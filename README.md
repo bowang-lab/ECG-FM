@@ -17,46 +17,44 @@ ECG-FM is a foundation model for electrocardiogram (ECG) analysis. Committed to 
   <img src="docs/saliency.png" width="500">
 </div>
 
-## News
-- 2024-08-12: ECG-FM arxiv & GitHub released
-
 ## Model Details
 
-ECG-FM adopts the wav2vec 2.0 architecture and was pretrained using the W2V+CMSC+RLM (WCR) method. It has 311,940,352 parameters and was trained using 4 NVIDIA A100 80GB GPUs over 16.5 days. For our transformer encoder, we selected hyperparameters consistent with a BERT-Large encoder. Further details are available in our [paper](https://arxiv.org/abs/2408.05178).
+ECG-FM has 90.9 million parameters, adopts the wav2vec 2.0 architecture, and was pretrained using the W2V+CMSC+RLM (WCR) method. Further details are available in our [paper](https://arxiv.org/abs/2408.05178).
 
 <div align="center">
   <img src="docs/architecture.png" width="750">
 </div>
 
 ### Model Parameters
-We are committed to open-weight practices. Model checkpoints have been made publicly available for [download on HuggingFace](https://huggingface.co/wanglab/ecg-fm-preprint).
+We are committed to open-weight practices. Model checkpoints have been made publicly available for [download on HuggingFace](https://huggingface.co/wanglab/ecg-fm).
 
 Specifically, there is:
 
 `mimic_iv_ecg_physionet_pretrained.pt`
-- Was pretrained on [MIMIC-IV-ECG v1.0](https://physionet.org/content/mimic-iv-ecg/1.0/) and [PhysioNet 2021 v1.0.3](https://physionet.org/content/challenge-2021/1.0.3/).
+- Pretrained on [MIMIC-IV-ECG v1.0](https://physionet.org/content/mimic-iv-ecg/1.0/) and [PhysioNet 2021 v1.0.3](https://physionet.org/content/challenge-2021/1.0.3/).
 
-`physionet_finetuned.pt`
-- Was finetuned from `mimic_iv_ecg_physionet_pretrained.pt` on [PhysioNet 2021 v1.0.3](https://physionet.org/content/challenge-2021/1.0.3/).
-
-
-**Disclaimer: These models are different from those reported in our arXiv paper.** These BERT-Base sized models were trained purely on public data sources due to privacy concerns surrounding UHN-ECG data and patient identification. Validation for the final models will be available upon full publication.
+`mimic_iv_ecg_finetuned.pt`
+- Finetuned from `mimic_iv_ecg_physionet_pretrained.pt` on [MIMIC-IV-ECG v1.0 dataset](https://physionet.org/content/mimic-iv-ecg/1.0/).
 
 ## Getting Started
 
 ### Installation
 Clone [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) and refer to the requirements and installation section in the top-level README.
 
+### Quick start
+Please refer to our [inference quickstart tutorial](https://github.com/bowang-lab/ECG-FM/blob/main/notebooks/infer_quickstart.ipynb), which outlines inference and visualization pipelines.
+
 ### Data Preparation
 We implemented a flexible, end-to-end, multi-source data preprocessing pipeline. Please refer to it [here](https://github.com/Jwoo5/fairseq-signals/tree/master/scripts/preprocess/ecg).
 
-### Inference & Model Loading
-See our [inference tutorial notebook](inference_tutorial.ipynb)!
+### Command-line Usage
+The [command-line inference tutorial](https://github.com/bowang-lab/ECG-FM/blob/main/notebooks/infer_cli.ipynb) describes the result extraction and post-processing. There is also a script for performing linear probing experiments.
 
-### Training
-Training is performed through the [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) framework. To maximize reproducibility, we have provided [configuration files](https://huggingface.co/wanglab/ecg-fm-preprint).
+All training is performed through the [fairseq_signals](https://github.com/Jwoo5/fairseq-signals) framework. To maximize reproducibility, we have provided [configuration files](https://huggingface.co/wanglab/ecg-fm).
 
-Pretraining can be performed by downloading the `mimic_iv_ecg_physionet_pretrained.yaml` config (or modifying `fairseq-signals/examples/w2v_cmsc/config/pretraining/w2v_cmsc_rlm.yaml` as desired).
+#### Pretraining
+Our pretraining uses the `mimic_iv_ecg_physionet_pretrained.yaml` config (can modify [w2v_cmsc_rlm.yaml](https://github.com/Jwoo5/fairseq-signals/blob/master/examples/w2v_cmsc/config/pretraining/w2v_cmsc_rlm.yaml) as desired).
+
 After modifying the relevant configuration file as desired, pretraining is performed using hydra's command line interface. This command highlights some popular config overrides:
 ```
 FAIRSEQ_SIGNALS_ROOT="<TODO>"
@@ -79,7 +77,14 @@ fairseq-hydra-train \
     --config-name w2v_cmsc_rlm
 ```
 
-Classification finetuning uses the `physionet_finetuned.yaml` or `fairseq-signals/examples/w2v_cmsc/config/finetuning/ecg_transformer/diagnosis.yaml` configs. This command highlights some popular config overrides:
+*Notes:*
+- With CMSC pretraining, the batch size refers to pairs of adjacent segments. Therefore, the effective pretraining batch size is `64 pairs * 2 segments per pair * 4 GPUs * 2 gradient accumulations (update_freq) = 1024 segments`.
+- ECG-FM has 311,940,352 parameters, whereas the base model has 90,883,072 parameters. We would not suggest pretraining a large model having only those public data sources (PhysioNet 2021 and MIMIC-IV-ECG) used in the paper.
+
+#### Finetuning
+Our finetuning uses the `mimic_iv_ecg_finetuned.yaml` config (can modify [diagnosis.yaml](https://github.com/Jwoo5/fairseq-signals/blob/master/examples/w2v_cmsc/config/finetuning/ecg_transformer/diagnosis.yaml) as desired).
+
+This command highlights some popular config overrides:
 ```
 FAIRSEQ_SIGNALS_ROOT="<TODO>"
 PRETRAINED_MODEL="<TODO>"
@@ -110,12 +115,8 @@ fairseq-hydra-train \
     --config-name diagnosis
   ```
 
-*Notes:*
-- With CMSC pretraining, the batch size refers to pairs of adjacent segments. Therefore, the effective pretraining batch size is `64 pairs * 2 segments per pair * 4 GPUs * 2 gradient accumulations (update_freq) = 1024 segments`.
-- ECG-FM has 311,940,352 parameters, whereas the base model has 90,883,072 parameters. We would not suggest pretraining a large model having only those public data sources (PhysioNet 2021 and MIMIC-IV-ECG) used in the paper.
-
 ### Labeling Functionality
-Functionality for our comphensive free-text pattern matching and knowledge graph based label manipulation will be made available soon!
+Functionality for our comphensive free-text pattern matching and knowledge graph-based label manipulation is showcased in the [labeler.ipynb](https://github.com/bowang-lab/ECG-FM/blob/main/notebooks/infer_quickstart.ipynb) notebook.
 
 ## Questions
 Inquiries may be directed to kaden.mckeen@mail.utoronto.ca.

@@ -1,0 +1,143 @@
+[
+  {
+    "pattern": "and",
+    "descriptors": [
+      [],
+      []
+    ]
+  },
+  {
+    "pattern": "with",
+    "descriptors": [
+      [],
+      []
+    ]
+  },
+  {
+    "pattern": "+",
+    "descriptors": [
+      [],
+      []
+    ]
+  },
+  {
+    "pattern": "or",
+    "descriptors": [
+      [
+        "Probable"
+      ],
+      [
+        "Probable"
+      ]
+    ]
+  },
+  {
+    "pattern": "and/or",
+    "descriptors": [
+      [
+        "Probable"
+      ],
+      [
+        "Probable"
+      ]
+    ]
+  },
+  {
+    "pattern": "due to",
+    "descriptors": [
+      [],
+      []
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "reflect the",
+    "descriptors": [
+      [],
+      []
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "conceivably related to",
+    "descriptors": [
+      [],
+      []
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "consistent with",
+    "descriptors": [
+      [],
+      [
+        "Possible"
+      ]
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "are consistent with",
+    "descriptors": [
+      [],
+      [
+        "Possible"
+      ]
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "suggests",
+    "descriptors": [
+      [],
+      [
+        "Probable"
+      ]
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "strongly suggests",
+    "descriptors": [
+      [],
+      []
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "suggest",
+    "descriptors": [
+      [],
+      [
+        "Probable"
+      ]
+    ],
+    "tags": [
+      "causal"
+    ]
+  },
+  {
+    "pattern": "to",
+    "descriptors": [
+      [],
+      []
+    ],
+    "tags": [
+      "temporal"
+    ]
+  }
+]

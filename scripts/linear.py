@@ -1,15 +1,10 @@
 """
 Steps
 1. Specify an output directory for the new run
-2. Run `fairseq-hydra-train` to turn pretrained model into a finetuning model format which can be ran through `fairseq-hydra-validate`. Specify the new output directory. Include the following arguments:
-    optimization.lr=[1e-25] \
-    optimization.max_update=1 \
-    checkpoint.save_interval_updates=1 \
+2. See how to extract pretrained embeddings from the `infer_cli.ipynb` notebook.
 3. Copy the resulting `config.yaml` file into the linear output directory
-4. Run `fairseq-hydra-validate` with `common_eval.extract=[encoder_out]` to extract encoder outputs
+4. Run `fairseq-hydra-validate` with `common_eval.extract=[output,encoder_out]` to extract encoder outputs
 5. Run the below linear training/output extraction script
-
-The extracted logits and targets can then be used to analyze the linear probe performance.
 """
 import argparse
 import os

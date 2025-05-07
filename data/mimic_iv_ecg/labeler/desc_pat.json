@@ -1,0 +1,1290 @@
+[
+  {
+    "pattern": "paired",
+    "descriptors": [
+      {
+        "tem": "Paired",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "changes may also partly be due to rate",
+    "descriptors": [
+      {
+        "tem": "Rate-related",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "predominant",
+    "descriptors": [
+      {
+        "tem": "Predominant",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "nonspecific",
+    "descriptors": [
+      {
+        "tem": "Nonspecific",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "are nonspecific",
+    "descriptors": [
+      {
+        "tem": "Nonspecific",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "is nonspecific",
+    "descriptors": [
+      {
+        "tem": "Nonspecific",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "undetermined",
+    "descriptors": [
+      {
+        "tem": "Undetermined",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "secondary",
+    "descriptors": [
+      {
+        "tem": "Secondary",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "interpolated",
+    "descriptors": [
+      {
+        "tem": "Interpolated",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "multiform",
+    "descriptors": [
+      {
+        "tem": "Multiform",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "normal",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "abnormal",
+    "descriptors": [
+      {
+        "tem": "Abnormal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "atypical",
+    "descriptors": [
+      {
+        "tem": "Abnormal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "within normal limits",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "borderline",
+    "descriptors": [
+      {
+        "tem": "Borderline",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "may be normal variant if no clinical abnormality found",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "may be normal for age",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "may be a normal variant for age",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "are normal for age",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "may be a normal variant for a female of this age",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "may be a normal variant for a male of this age",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "probable normal",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Probable"
+        ]
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "minor",
+    "descriptors": [
+      {
+        "tem": "Mild",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "severe",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "marked",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "markedly",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "prominent",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "extreme",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "extensive",
+    "descriptors": [
+      {
+        "tem": "Severe",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "voltage criteria for",
+    "descriptors": [
+      {
+        "tem": "Voltage criteria for",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "by voltage",
+    "descriptors": [
+      {
+        "tem": "Voltage criteria for",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "by voltage only",
+    "descriptors": [
+      {
+        "tem": "Voltage criteria for",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "frequent",
+    "descriptors": [
+      {
+        "tem": "Frequent",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "occasional",
+    "descriptors": [
+      {
+        "tem": "Occasional",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "intermittent",
+    "descriptors": [
+      {
+        "tem": "Intermittent",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "regular",
+    "descriptors": [
+      {
+        "tem": "Regular",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "irregular",
+    "descriptors": [
+      {
+        "tem": "Irregular",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "rapid",
+    "descriptors": [
+      {
+        "tem": "Rapid",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "slow",
+    "descriptors": [
+      {
+        "tem": "Slow",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "possible",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "possibly",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "may be",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "could be",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "suspect",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "<before?>",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "probable",
+    "descriptors": [
+      {
+        "tem": "Probable",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "probably",
+    "descriptors": [
+      {
+        "tem": "Probable",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "evidence of",
+    "descriptors": [
+      {
+        "tem": "Possible",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "variant",
+    "descriptors": [
+      {
+        "tem": "Variant",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "cannot rule out",
+    "descriptors": [
+      {
+        "tem": "Rule out",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "consider",
+    "descriptors": [
+      {
+        "tem": "Rule out",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "check",
+    "descriptors": [
+      {
+        "tem": "Assess",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "acute",
+    "descriptors": [
+      {
+        "tem": "Acute",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": ", age undetermined",
+    "descriptors": [
+      {
+        "tem": "Age undetermined",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "age undetermined",
+    "descriptors": [
+      {
+        "tem": "Age undetermined",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "old",
+    "descriptors": [
+      {
+        "tem": "Old",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "recent",
+    "descriptors": [
+      {
+        "tem": "Recent",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "nonsustained",
+    "descriptors": [
+      {
+        "tem": "Nonsustained",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": ", nonsustained",
+    "descriptors": [
+      {
+        "tem": "Nonsustained",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "low",
+    "descriptors": [
+      {
+        "tem": "Low",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "high",
+    "descriptors": [
+      {
+        "tem": "High",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "multifocal",
+    "descriptors": [
+      {
+        "tem": "Multifocal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "paroxysmal",
+    "descriptors": [
+      {
+        "tem": "Paroxysmal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "aberrated",
+    "descriptors": [
+      {
+        "tem": "Aberrated",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "long",
+    "descriptors": [
+      {
+        "tem": "Long",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "wide",
+    "descriptors": [
+      {
+        "tem": "Long",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "delayed",
+    "descriptors": [
+      {
+        "tem": "Delayed",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "no",
+    "descriptors": [
+      {
+        "tem": "Absence",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "without",
+    "descriptors": [
+      {
+        "tem": "Absence",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "minimal",
+    "descriptors": [
+      {
+        "tem": "Minimal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": ", diffuse leads",
+    "descriptors": [
+      {
+        "tem": "Diffuse",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "multiple",
+    "descriptors": [
+      {
+        "tem": "Multiple",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "2nd degree",
+    "descriptors": [
+      {
+        "tem": "2nd degree",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "variable",
+    "descriptors": [
+      {
+        "tem": "Variable",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "lateral leads are also involved",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "sinus",
+    "descriptors": [
+      {
+        "tem": "Sinus",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "atrial",
+    "descriptors": [
+      {
+        "tem": "Atrial",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "ventricular",
+    "descriptors": [
+      {
+        "tem": "Ventricular",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "supraventricular",
+    "descriptors": [
+      {
+        "tem": "Supraventricular",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "atrioventricular",
+    "descriptors": [
+      {
+        "tem": "Atrioventricular",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "lateral",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "septal",
+    "descriptors": [
+      {
+        "tem": "Septal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "anterior",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "posterior",
+    "descriptors": [
+      {
+        "tem": "Posterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "inferior",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "precordial",
+    "descriptors": [
+      {
+        "tem": "Precordial lead",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "probably due to",
+    "descriptors": [
+      {
+        "tem": "Probable",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "are probably due to",
+    "descriptors": [
+      {
+        "tem": "Probable",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "in precordial leads",
+    "descriptors": [
+      {
+        "tem": "Precordial lead",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "limb leads",
+    "descriptors": [
+      {
+        "tem": "Limb lead",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "in limb leads",
+    "descriptors": [
+      {
+        "tem": "Limb lead",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "lateral lead",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "lateral leads",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": ", lateral leads",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in lateral leads",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in the lateral leads",
+    "descriptors": [
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "anterior leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": ", anterior leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in anterior leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in the anterior leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", inferolateral leads",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      },
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", anterolateral leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      },
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in anterolateral leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      },
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in the anterolateral leads",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      },
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", inferior leads",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in inferior leads",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in the inferior leads",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "septal lead",
+    "descriptors": [
+      {
+        "tem": "Septal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "septal leads",
+    "descriptors": [
+      {
+        "tem": "Septal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "in v1",
+    "descriptors": [
+      {
+        "tem": "V1",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in v2",
+    "descriptors": [
+      {
+        "tem": "V2",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "in v1 or v2",
+    "descriptors": [
+      {
+        "tem": "V1",
+        "descriptors": []
+      },
+      {
+        "tem": "V2",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", probably normal",
+    "descriptors": [
+      {
+        "tem": "Normal",
+        "descriptors": [
+          "Probable"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", acute",
+    "descriptors": [
+      {
+        "tem": "Acute",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", probably acute",
+    "descriptors": [
+      {
+        "tem": "Acute",
+        "descriptors": [
+          "Probable"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", possibly acute",
+    "descriptors": [
+      {
+        "tem": "Acute",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", recent",
+    "descriptors": [
+      {
+        "tem": "Recent",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", old",
+    "descriptors": [
+      {
+        "tem": "Old",
+        "descriptors": []
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": ", probably rate-related",
+    "descriptors": [
+      {
+        "tem": "Rate-related",
+        "descriptors": [
+          "Probable"
+        ]
+      }
+    ],
+    "before_after": "a"
+  },
+  {
+    "pattern": "anterolateral",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      },
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "anteroseptal",
+    "descriptors": [
+      {
+        "tem": "Anterior",
+        "descriptors": []
+      },
+      {
+        "tem": "Septal",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "inferolateral",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      },
+      {
+        "tem": "Lateral",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  },
+  {
+    "pattern": "inferoposterior",
+    "descriptors": [
+      {
+        "tem": "Inferior",
+        "descriptors": []
+      },
+      {
+        "tem": "Posterior",
+        "descriptors": []
+      }
+    ],
+    "before_after": "b"
+  }
+]

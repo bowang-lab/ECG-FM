@@ -1,5 +1,5 @@
 """
-See the `saliency.ipynb` notebook for a description of the saliency map creation process.
+Convert the saliency map precursors into a more final form (see `infer_cli.ipynb` notebook for extraction). See the `infer_quickstart.ipynb` for visualization.
 """
 import argparse
 import os

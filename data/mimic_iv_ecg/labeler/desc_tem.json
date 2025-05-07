@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Paired",
+    "category": "severity"
+  },
+  {
+    "name": "Rate-related",
+    "category": "severity"
+  },
+  {
+    "name": "Predominant",
+    "category": "severity"
+  },
+  {
+    "name": "Undetermined",
+    "category": "severity"
+  },
+  {
+    "name": "Secondary",
+    "category": "severity"
+  },
+  {
+    "name": "Interpolated",
+    "category": null
+  },
+  {
+    "name": "Multiform",
+    "category": null
+  },
+  {
+    "name": "Normal",
+    "category": "severity"
+  },
+  {
+    "name": "Abnormal",
+    "category": "severity"
+  },
+  {
+    "name": "Borderline",
+    "category": "severity"
+  },
+  {
+    "name": "Voltage criteria for",
+    "category": "severity"
+  },
+  {
+    "name": "Mild",
+    "category": "severity"
+  },
+  {
+    "name": "Severe",
+    "category": "severity"
+  },
+  {
+    "name": "Acute",
+    "category": "severity"
+  },
+  {
+    "name": "Age undetermined",
+    "category": "severity"
+  },
+  {
+    "name": "Old",
+    "category": "severity"
+  },
+  {
+    "name": "Recent",
+    "category": "severity"
+  },
+  {
+    "name": "Frequent",
+    "category": "severity",
+    "tags": [
+      "Temporal"
+    ]
+  },
+  {
+    "name": "Occasional",
+    "category": "severity",
+    "tags": [
+      "Temporal"
+    ]
+  },
+  {
+    "name": "Intermittent",
+    "category": "severity",
+    "tags": [
+      "Temporal"
+    ]
+  },
+  {
+    "name": "Regular",
+    "category": "severity"
+  },
+  {
+    "name": "Irregular",
+    "category": "severity"
+  },
+  {
+    "name": "Rapid",
+    "category": "severity",
+    "tags": [
+      "Temporal"
+    ]
+  },
+  {
+    "name": "Slow",
+    "category": "severity",
+    "tags": [
+      "Temporal"
+    ]
+  },
+  {
+    "name": "Possible",
+    "category": "uncertainty"
+  },
+  {
+    "name": "Probable",
+    "category": "uncertainty"
+  },
+  {
+    "name": "Variant",
+    "category": "uncertainty"
+  },
+  {
+    "name": "Nonspecific",
+    "category": "uncertainty"
+  },
+  {
+    "name": "Absence",
+    "category": "uncertainty"
+  },
+  {
+    "name": "Rule out",
+    "category": "uncertainty",
+    "create_entities": [
+      "Needs clinical correlation"
+    ]
+  },
+  {
+    "name": "Assess",
+    "category": "uncertainty",
+    "create_entities": [
+      "Needs clinical correlation"
+    ]
+  },
+  {
+    "name": "Nonsustained",
+    "category": "severity"
+  },
+  {
+    "name": "Low",
+    "category": "severity"
+  },
+  {
+    "name": "High",
+    "category": "severity"
+  },
+  {
+    "name": "Multifocal",
+    "category": "severity"
+  },
+  {
+    "name": "Paroxysmal",
+    "category": "severity"
+  },
+  {
+    "name": "Aberrated",
+    "category": "severity",
+    "create_entities": [
+      "Aberrant ventricular conduction"
+    ]
+  },
+  {
+    "name": "Long",
+    "category": "severity"
+  },
+  {
+    "name": "Delayed",
+    "category": "severity",
+    "tags": [
+      "Temporal"
+    ]
+  },
+  {
+    "name": "Minimal",
+    "category": "severity"
+  },
+  {
+    "name": "Diffuse",
+    "category": "severity"
+  },
+  {
+    "name": "Multiple",
+    "category": "severity"
+  },
+  {
+    "name": "2nd degree",
+    "category": "severity"
+  },
+  {
+    "name": "Variable",
+    "category": "severity"
+  },
+  {
+    "name": "Sinus",
+    "category": "location"
+  },
+  {
+    "name": "Atrial",
+    "category": "location"
+  },
+  {
+    "name": "Ventricular",
+    "category": "location"
+  },
+  {
+    "name": "Supraventricular",
+    "category": "location"
+  },
+  {
+    "name": "Atrioventricular",
+    "category": "location"
+  },
+  {
+    "name": "Lateral",
+    "category": "location"
+  },
+  {
+    "name": "Septal",
+    "category": "location"
+  },
+  {
+    "name": "Anterior",
+    "category": "location"
+  },
+  {
+    "name": "Posterior",
+    "category": "location"
+  },
+  {
+    "name": "Inferior",
+    "category": "location"
+  },
+  {
+    "name": "Limb lead",
+    "category": "location"
+  },
+  {
+    "name": "Precordial lead",
+    "category": "location"
+  },
+  {
+    "name": "V1",
+    "category": "leads"
+  },
+  {
+    "name": "V2",
+    "category": "leads"
+  }
+]

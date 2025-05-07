@@ -1,0 +1,3410 @@
+[
+  {
+    "pattern": "age not entered, assumed to be 50 years old for purpose of ecg interpretation",
+    "entities": []
+  },
+  {
+    "pattern": "pattern",
+    "entities": []
+  },
+  {
+    "pattern": "if rhythm correct, report below may be invalid",
+    "entities": []
+  },
+  {
+    "pattern": "ecg",
+    "entities": [
+      {
+        "tem": "Electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "pediatric criteria used",
+    "entities": [
+      {
+        "tem": "Pediatric",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "pediatric ecg interpretation",
+    "entities": [
+      {
+        "tem": "Pediatric",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "normal ecg",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: normal ecg",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "normal ecg based on available leads",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram",
+        "descriptors": []
+      },
+      {
+        "tem": "Missing leads/data",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: available leads normal ecg",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram",
+        "descriptors": []
+      },
+      {
+        "tem": "Missing leads/data",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "abnormal ecg",
+    "entities": [
+      {
+        "tem": "Abnormal electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: abnormal ecg",
+    "entities": [
+      {
+        "tem": "Abnormal electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "are abnormal ecg",
+    "entities": [
+      {
+        "tem": "Abnormal electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "are abnormal",
+    "entities": [
+      {
+        "tem": "Abnormal electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "borderline ecg",
+    "entities": [
+      {
+        "tem": "Borderline electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: borderline ecg",
+    "entities": [
+      {
+        "tem": "Borderline electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "are borderline ecg",
+    "entities": [
+      {
+        "tem": "Borderline electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "are borderline abnormal ecg",
+    "entities": [
+      {
+        "tem": "Borderline electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "are borderline abnormal",
+    "entities": [
+      {
+        "tem": "Borderline electrocardiogram",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "normal ecg except for rate",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram except for rate",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: tachycardia - otherwise normal ecg",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram except for rate",
+        "descriptors": []
+      },
+      {
+        "tem": "Tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: bradycardia - otherwise normal ecg",
+    "entities": [
+      {
+        "tem": "Normal electrocardiogram except for rate",
+        "descriptors": []
+      },
+      {
+        "tem": "Bradycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "repeat ecg to exclude technical error",
+    "entities": [
+      {
+        "tem": "Difficulty interpreting",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "only avf, v1-v6 analyzed",
+    "entities": [
+      {
+        "tem": "Difficulty interpreting",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "only v1-v6 analyzed",
+    "entities": [
+      {
+        "tem": "Difficulty interpreting",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "only avf, v1 - v6 analyzed",
+    "entities": [
+      {
+        "tem": "Difficulty interpreting",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "no further analysis",
+    "entities": [
+      {
+        "tem": "Difficulty interpreting",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "no further rhythm analysis attempted",
+    "entities": [
+      {
+        "tem": "Difficulty interpreting",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "warning: data quality may affect interpretation",
+    "entities": [
+      {
+        "tem": "Poor data quality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "warning: data quality may affect computer interpretation",
+    "entities": [
+      {
+        "tem": "Poor data quality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "poor quality data, interpretation may be affected",
+    "entities": [
+      {
+        "tem": "Poor data quality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: technical error",
+    "entities": [
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "analysis error",
+    "entities": [
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tracing unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "technically unsatisfactory tracing",
+    "entities": [
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "repeat ecg",
+    "entities": [
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "please repeat",
+    "entities": [
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "electrode reversal",
+    "entities": [
+      {
+        "tem": "Lead reversal",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "reversed",
+    "entities": [
+      {
+        "tem": "Lead reversal",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "limb lead reversal",
+    "entities": [
+      {
+        "tem": "Limb lead reversal",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "limb leads reversed",
+    "entities": [
+      {
+        "tem": "Limb lead reversal",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "arm lead reversal",
+    "entities": [
+      {
+        "tem": "Arm lead reversal",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right and left arm electrode reversal, interpretation assumes no reversal",
+    "entities": [
+      {
+        "tem": "Arm lead reversal",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "all 12 leads are missing",
+    "entities": [
+      {
+        "tem": "Missing leads/data",
+        "descriptors": []
+      },
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "summary: none available",
+    "entities": [
+      {
+        "tem": "Missing leads/data",
+        "descriptors": []
+      },
+      {
+        "tem": "Cannot adequately assess",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "incomplete analysis due to missing data in precordial lead(s)",
+    "entities": [
+      {
+        "tem": "Missing leads/data",
+        "descriptors": [
+          "Precordial lead"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "lead i unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead I unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead i",
+    "entities": [
+      {
+        "tem": "Missing lead I",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead i",
+    "entities": [
+      {
+        "tem": "Partial missing lead I",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead i",
+    "entities": [
+      {
+        "tem": "Artifact in lead I",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead i",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead I",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead i not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead I not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead ii unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead II unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead ii",
+    "entities": [
+      {
+        "tem": "Missing lead II",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead ii",
+    "entities": [
+      {
+        "tem": "Partial missing lead II",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead ii",
+    "entities": [
+      {
+        "tem": "Artifact in lead II",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead ii",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead II",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead ii not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead II not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead iii unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead III unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead iii",
+    "entities": [
+      {
+        "tem": "Missing lead III",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead iii",
+    "entities": [
+      {
+        "tem": "Artifact in lead III",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead iii",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead III",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead iii not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead III not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead avl unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead AVL unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead avl",
+    "entities": [
+      {
+        "tem": "Missing lead AVL",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead avl",
+    "entities": [
+      {
+        "tem": "Artifact in lead AVL",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead avl",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead AVL",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead avl not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead AVL not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead avr unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead AVR unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead avr",
+    "entities": [
+      {
+        "tem": "Missing lead AVR",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead avr",
+    "entities": [
+      {
+        "tem": "Partial missing lead AVR",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead avr",
+    "entities": [
+      {
+        "tem": "Artifact in lead AVR",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead avr",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead AVR",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead avr not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead AVR not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead avf unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead AVF unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead avf",
+    "entities": [
+      {
+        "tem": "Missing lead AVF",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead avf",
+    "entities": [
+      {
+        "tem": "Artifact in lead AVF",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead avf",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead AVF",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead avf not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead AVF not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v1 unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead V1 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead v1",
+    "entities": [
+      {
+        "tem": "Missing lead V1",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead v1",
+    "entities": [
+      {
+        "tem": "Partial missing lead V1",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead v1",
+    "entities": [
+      {
+        "tem": "Artifact in lead V1",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead v1",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead V1",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v1 not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead V1 not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v2 unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead V2 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "faulty v2 - omitted from analysis",
+    "entities": [
+      {
+        "tem": "Lead V2 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead v2",
+    "entities": [
+      {
+        "tem": "Missing lead V2",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead v2",
+    "entities": [
+      {
+        "tem": "Partial missing lead V2",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead v2",
+    "entities": [
+      {
+        "tem": "Artifact in lead V2",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead v2",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead V2",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v2 omitted due to sequence error",
+    "entities": [
+      {
+        "tem": "Lead V2 omitted due to sequence error",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v2 omitted due to possible sequence error",
+    "entities": [
+      {
+        "tem": "Lead V2 omitted due to sequence error",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "lead v3 unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead V3 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "faulty v3 - omitted from analysis",
+    "entities": [
+      {
+        "tem": "Lead V3 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead v3",
+    "entities": [
+      {
+        "tem": "Missing lead V3",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead v3",
+    "entities": [
+      {
+        "tem": "Partial missing lead V3",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead v3",
+    "entities": [
+      {
+        "tem": "Artifact in lead V3",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead v3",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead V3",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v3 omitted due to sequence error",
+    "entities": [
+      {
+        "tem": "Lead V3 omitted due to sequence error",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v3 omitted due to possible sequence error",
+    "entities": [
+      {
+        "tem": "Lead V3 omitted due to sequence error",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "lead v4 unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead V4 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "faulty v4 - omitted from analysis",
+    "entities": [
+      {
+        "tem": "Lead V4 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead v4",
+    "entities": [
+      {
+        "tem": "Missing lead V4",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead v4",
+    "entities": [
+      {
+        "tem": "Partial missing lead V4",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead v4",
+    "entities": [
+      {
+        "tem": "Artifact in lead V4",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead v4",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead V4",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v4 not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead V4 not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v4 omitted due to sequence error",
+    "entities": [
+      {
+        "tem": "Lead V4 omitted due to sequence error",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v4 omitted due to possible sequence error",
+    "entities": [
+      {
+        "tem": "Lead V4 omitted due to sequence error",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "lead v5 unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead V5 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "faulty v5 - omitted from analysis",
+    "entities": [
+      {
+        "tem": "Lead V5 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead v5",
+    "entities": [
+      {
+        "tem": "Missing lead V5",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead v5",
+    "entities": [
+      {
+        "tem": "Partial missing lead V5",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead v5",
+    "entities": [
+      {
+        "tem": "Artifact in lead V5",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead v5",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead V5",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v5 not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead V5 not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v5 omitted due to sequence error",
+    "entities": [
+      {
+        "tem": "Lead V5 omitted due to sequence error",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v5 omitted due to possible sequence error",
+    "entities": [
+      {
+        "tem": "Lead V5 omitted due to sequence error",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "lead v6 unsuitable for analysis",
+    "entities": [
+      {
+        "tem": "Lead V6 unsuitable for analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "missing lead v6",
+    "entities": [
+      {
+        "tem": "Missing lead V6",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "partial missing lead v6",
+    "entities": [
+      {
+        "tem": "Partial missing lead V6",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "artifact in lead v6",
+    "entities": [
+      {
+        "tem": "Artifact in lead V6",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "baseline wander in lead v6",
+    "entities": [
+      {
+        "tem": "Baseline wander in lead V6",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lead v6 not used for morphology analysis",
+    "entities": [
+      {
+        "tem": "Lead V6 not used for morphology analysis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "low voltage",
+    "entities": [
+      {
+        "tem": "Low QRS voltage",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "low qrs voltages",
+    "entities": [
+      {
+        "tem": "Low QRS voltage",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "low voltage, limb leads",
+    "entities": [
+      {
+        "tem": "Low QRS voltage",
+        "descriptors": [
+          "Limb lead"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "low voltage, precordial leads",
+    "entities": [
+      {
+        "tem": "Low QRS voltage",
+        "descriptors": [
+          "Precordial lead"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "low voltage, limb and precordial leads",
+    "entities": [
+      {
+        "tem": "Low QRS voltage",
+        "descriptors": [
+          "Limb lead",
+          "Precordial lead"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "generalized low qrs voltages",
+    "entities": [
+      {
+        "tem": "Low QRS voltage",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "high qrs voltage",
+    "entities": [
+      {
+        "tem": "High QRS voltage",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "high voltage in limb leads",
+    "entities": [
+      {
+        "tem": "High QRS voltage",
+        "descriptors": [
+          "Limb lead"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "high precordial voltages",
+    "entities": [
+      {
+        "tem": "High QRS voltage",
+        "descriptors": [
+          "Precordial lead"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "left atrial abnormality",
+    "entities": [
+      {
+        "tem": "Left atrial abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right atrial abnormality",
+    "entities": [
+      {
+        "tem": "Right atrial abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "biatrial abnormality",
+    "entities": [
+      {
+        "tem": "Biatrial abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "beats",
+    "entities": [
+      {
+        "tem": "Beat",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "t wave",
+    "entities": [
+      {
+        "tem": "T wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "t waves",
+    "entities": [
+      {
+        "tem": "T wave",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "t",
+    "entities": [
+      {
+        "tem": "T wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "t wave abnormality",
+    "entities": [
+      {
+        "tem": "T wave abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "abnormality t",
+    "entities": [
+      {
+        "tem": "T wave abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "t wave abnormalities",
+    "entities": [
+      {
+        "tem": "T wave abnormality",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "t wave changes",
+    "entities": [
+      {
+        "tem": "T wave abnormality",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "nonspecific t wave abnormality",
+    "entities": [
+      {
+        "tem": "Nonspecific T wave abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "nonspecific t wave abnormalities",
+    "entities": [
+      {
+        "tem": "Nonspecific T wave abnormality",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "t wave inversion",
+    "entities": [
+      {
+        "tem": "T wave inversion",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tall t",
+    "entities": [
+      {
+        "tem": "Tall T wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tall t waves",
+    "entities": [
+      {
+        "tem": "Tall T wave",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "st wave changes",
+    "entities": [
+      {
+        "tem": "ST wave abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "st depression",
+    "entities": [
+      {
+        "tem": "ST depression",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "st junctional depression",
+    "entities": [
+      {
+        "tem": "ST depression",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "stj depression",
+    "entities": [
+      {
+        "tem": "ST depression",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "anteroseptal st depression is probably reciprocal to inferior infarct",
+    "entities": [
+      {
+        "tem": "Reciprocal ST depression",
+        "descriptors": []
+      },
+      {
+        "tem": "Inferior infarction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "probably reciprocal to inferior infarct",
+    "entities": [
+      {
+        "tem": "Reciprocal ST depression",
+        "descriptors": []
+      },
+      {
+        "tem": "Inferior infarction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "st elevation",
+    "entities": [
+      {
+        "tem": "ST elevation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "st-t wave changes",
+    "entities": [
+      {
+        "tem": "ST-T wave abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "digitalis effect",
+    "entities": [
+      {
+        "tem": "Digitalis effect",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "r wave",
+    "entities": [
+      {
+        "tem": "R wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "r waves",
+    "entities": [
+      {
+        "tem": "R wave",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "r",
+    "entities": [
+      {
+        "tem": "R wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "r wave progression",
+    "entities": [
+      {
+        "tem": "Abnormal R wave progression",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "r wave abnormality progression",
+    "entities": [
+      {
+        "tem": "Abnormal R wave progression",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "poor r wave progression",
+    "entities": [
+      {
+        "tem": "Poor R wave progression",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "early transition",
+    "entities": [
+      {
+        "tem": "Early R wave transition",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "late transition",
+    "entities": [
+      {
+        "tem": "Late R wave transition",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tall r wave",
+    "entities": [
+      {
+        "tem": "Tall R wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tall r",
+    "entities": [
+      {
+        "tem": "Tall R wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "p wave",
+    "entities": [
+      {
+        "tem": "P wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "p waves",
+    "entities": [
+      {
+        "tem": "P wave",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "p",
+    "entities": [
+      {
+        "tem": "P wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tall inferior p waves",
+    "entities": [
+      {
+        "tem": "Tall inferior P wave",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "abnormally tall p",
+    "entities": [
+      {
+        "tem": "Tall inferior P wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "u",
+    "entities": [
+      {
+        "tem": "U wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "q wave",
+    "entities": [
+      {
+        "tem": "Q wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "q waves",
+    "entities": [
+      {
+        "tem": "Q wave",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "q",
+    "entities": [
+      {
+        "tem": "Q wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "s wave",
+    "entities": [
+      {
+        "tem": "S wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "delta wave",
+    "entities": [
+      {
+        "tem": "Delta wave",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "complex",
+    "entities": [
+      {
+        "tem": "QRS complex",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "complexes",
+    "entities": [
+      {
+        "tem": "QRS complex",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "qrs",
+    "entities": [
+      {
+        "tem": "QRS complex",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "qrs changes",
+    "entities": [
+      {
+        "tem": "QRS changes",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wide qrs",
+    "entities": [
+      {
+        "tem": "Wide QRS complex",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wide qrs complex",
+    "entities": [
+      {
+        "tem": "Wide QRS complex",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wide complex",
+    "entities": [
+      {
+        "tem": "Wide QRS complex",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "prolonged qrs",
+    "entities": [
+      {
+        "tem": "Wide QRS complex",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "qrs axis",
+    "entities": [
+      {
+        "tem": "QRS axis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "undetermined axis",
+    "entities": [
+      {
+        "tem": "Indeterminate axis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "qrs axis deviation",
+    "entities": [
+      {
+        "tem": "QRS axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rad",
+    "entities": [
+      {
+        "tem": "Right axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right axis deviation",
+    "entities": [
+      {
+        "tem": "Right axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rightward axis",
+    "entities": [
+      {
+        "tem": "Right axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rightward qrs axis",
+    "entities": [
+      {
+        "tem": "Right axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lad",
+    "entities": [
+      {
+        "tem": "Left axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "left axis deviation",
+    "entities": [
+      {
+        "tem": "Left axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "leftward axis",
+    "entities": [
+      {
+        "tem": "Left axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right superior axis",
+    "entities": [
+      {
+        "tem": "Extreme axis deviation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "left atrial enlargement",
+    "entities": [
+      {
+        "tem": "Left atrial enlargement",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lae",
+    "entities": [
+      {
+        "tem": "Left atrial enlargement",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right atrial enlargement",
+    "entities": [
+      {
+        "tem": "Right atrial enlargement",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rae",
+    "entities": [
+      {
+        "tem": "Right atrial enlargement",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "biatrial enlargement",
+    "entities": [
+      {
+        "tem": "Left atrial enlargement",
+        "descriptors": []
+      },
+      {
+        "tem": "Right atrial enlargement",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "hypertrophy",
+    "entities": [
+      {
+        "tem": "Hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ventricular hypertrophy",
+    "entities": [
+      {
+        "tem": "Ventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "left ventricular hypertrophy",
+    "entities": [
+      {
+        "tem": "Left ventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lvh",
+    "entities": [
+      {
+        "tem": "Left ventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right ventricular hypertrophy",
+    "entities": [
+      {
+        "tem": "Right ventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rvh",
+    "entities": [
+      {
+        "tem": "Right ventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "biventricular hypertrophy",
+    "entities": [
+      {
+        "tem": "Biventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "bvh",
+    "entities": [
+      {
+        "tem": "Biventricular hypertrophy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "hypertension",
+    "entities": [
+      {
+        "tem": "Hypertension",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "cardiomyopathy",
+    "entities": [
+      {
+        "tem": "Cardiomyopathy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "prolonged qt",
+    "entities": [
+      {
+        "tem": "Prolonged QT interval",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "short qt",
+    "entities": [
+      {
+        "tem": "Short QT interval",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "borderline prolonged qt",
+    "entities": [
+      {
+        "tem": "Borderline QT interval",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "prolonged pr",
+    "entities": [
+      {
+        "tem": "Prolonged PR interval",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "short pr",
+    "entities": [
+      {
+        "tem": "Short PR interval",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rapid ventricular response",
+    "entities": [
+      {
+        "tem": "Rapid ventricular response",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rapid ventricular rate",
+    "entities": [
+      {
+        "tem": "Rapid ventricular response",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "slow ventricular response",
+    "entities": [
+      {
+        "tem": "Slow ventricular response",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "uncontrolled ventricular response",
+    "entities": [
+      {
+        "tem": "Uncontrolled ventricular response",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rsr' pattern",
+    "entities": [
+      {
+        "tem": "RSR' pattern",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rsr'",
+    "entities": [
+      {
+        "tem": "RSR' pattern",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rsr'(v1)",
+    "entities": [
+      {
+        "tem": "RSR' pattern",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "qr",
+    "entities": [
+      {
+        "tem": "QR pattern",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "pulmonary disease",
+    "entities": [
+      {
+        "tem": "Pulmonary disease",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "rhythm",
+    "entities": [
+      {
+        "tem": "Rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "sinus rhythm",
+    "entities": [
+      {
+        "tem": "Sinus rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "sinus arrhythmia",
+    "entities": [
+      {
+        "tem": "Sinus arrhythmia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "undetermined rhythm",
+    "entities": [
+      {
+        "tem": "Undetermined rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "undetermined irregularity",
+    "entities": [
+      {
+        "tem": "Undetermined irregularity",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "irregular rate",
+    "entities": [
+      {
+        "tem": "Irregular rate",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "supraventricular rhythm",
+    "entities": [
+      {
+        "tem": "Supraventricular rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrial rhythm",
+    "entities": [
+      {
+        "tem": "Atrial rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "junctional rhythm",
+    "entities": [
+      {
+        "tem": "Junctional rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ectopic supraventricular beats",
+    "entities": [
+      {
+        "tem": "Ectopic supraventricular contraction",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "supraventricular beats",
+    "entities": [
+      {
+        "tem": "Ectopic supraventricular contraction",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "ectopic atrial rhythm",
+    "entities": [
+      {
+        "tem": "Ectopic atrial rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wandering atrial",
+    "entities": [
+      {
+        "tem": "Wandering atrial pacemaker",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "premature ventricular beat",
+    "entities": [
+      {
+        "tem": "Premature ventricular contraction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "premature ventricular beats",
+    "entities": [
+      {
+        "tem": "Premature ventricular contraction",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "premature atrial beat",
+    "entities": [
+      {
+        "tem": "Premature atrial contraction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "premature atrial beats",
+    "entities": [
+      {
+        "tem": "Premature atrial contraction",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "multiple premature beats, ventricular and supraventricular",
+    "entities": [
+      {
+        "tem": "Premature ventricular contraction",
+        "descriptors": [
+          "Multiple"
+        ]
+      },
+      {
+        "tem": "Premature supraventricular contraction",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "ventricular escape",
+    "entities": [
+      {
+        "tem": "Ventricular escape contraction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "bigeminy",
+    "entities": [
+      {
+        "tem": "Bigeminy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "bigeminal",
+    "entities": [
+      {
+        "tem": "Bigeminy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "trigeminy",
+    "entities": [
+      {
+        "tem": "Trigeminy",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "idioventricular rhythm",
+    "entities": [
+      {
+        "tem": "Idioventricular rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "accelerated idioventricular rhythm",
+    "entities": [
+      {
+        "tem": "Accelerated idioventricular rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "tachycardia",
+    "entities": [
+      {
+        "tem": "Tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "sinus tachycardia",
+    "entities": [
+      {
+        "tem": "Sinus tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wide complex tachycardia",
+    "entities": [
+      {
+        "tem": "Wide complex tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wide qrs tachycardia",
+    "entities": [
+      {
+        "tem": "Wide complex tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ventricular tachycardia",
+    "entities": [
+      {
+        "tem": "Ventricular tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "supraventricular tachycardia",
+    "entities": [
+      {
+        "tem": "Supraventricular tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrial tachycardia",
+    "entities": [
+      {
+        "tem": "Atrial tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ectopic atrial tachycardia",
+    "entities": [
+      {
+        "tem": "Ectopic atrial tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "paroxysmal atrial tachycardia",
+    "entities": [
+      {
+        "tem": "Paroxysmal atrial tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrial fibrillation",
+    "entities": [
+      {
+        "tem": "Atrial fibrillation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrial flutter",
+    "entities": [
+      {
+        "tem": "Atrial flutter",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "flutter",
+    "entities": [
+      {
+        "tem": "Atrial flutter",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "junctional tachycardia",
+    "entities": [
+      {
+        "tem": "Junctional tachycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "accelerated junctional rhythm",
+    "entities": [
+      {
+        "tem": "Accelerated junctional rhythm",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "bradycardia",
+    "entities": [
+      {
+        "tem": "Bradycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "sinus bradycardia",
+    "entities": [
+      {
+        "tem": "Sinus bradycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "junctional bradycardia",
+    "entities": [
+      {
+        "tem": "Junctional bradycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ectopic atrial bradycardia",
+    "entities": [
+      {
+        "tem": "Ectopic atrial bradycardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "conduction defect",
+    "entities": [
+      {
+        "tem": "Conduction defect",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "intraventricular conduction defect",
+    "entities": [
+      {
+        "tem": "Intraventricular conduction defect",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "aberrancy",
+    "entities": [
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "aberrant complex",
+    "entities": [
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "aberrant complexes",
+    "entities": [
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "abnormal ventricular conduction pathways",
+    "entities": [
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "aberrancy of sv complex(es)",
+    "entities": [
+      {
+        "tem": "Aberrant ventricular conduction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ventricular preexcitation",
+    "entities": [
+      {
+        "tem": "Preexcitation syndrome",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wpw",
+    "entities": [
+      {
+        "tem": "Wolff-Parkinson-White syndrome",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wolff-parkinson-white pattern type a",
+    "entities": [
+      {
+        "tem": "Wolff-Parkinson-White type A",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wpw pattern type b",
+    "entities": [
+      {
+        "tem": "Wolff-Parkinson-White type B",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "wolff-parkinson-white pattern type b",
+    "entities": [
+      {
+        "tem": "Wolff-Parkinson-White type B",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "intraventricular delay",
+    "entities": [
+      {
+        "tem": "Intraventricular conduction delay",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ivcd",
+    "entities": [
+      {
+        "tem": "Intraventricular conduction delay",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "nonspecific intraventricular delay",
+    "entities": [
+      {
+        "tem": "Nonspecific intraventricular conduction delay",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right ventricular delay",
+    "entities": [
+      {
+        "tem": "Right ventricular conduction delay",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular block",
+    "entities": [
+      {
+        "tem": "Atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "block",
+    "entities": [
+      {
+        "tem": "Atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "1st degree atrioventricular block",
+    "entities": [
+      {
+        "tem": "1st degree atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "2nd degree atrioventricular block",
+    "entities": [
+      {
+        "tem": "2nd degree atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "variable atrioventricular block",
+    "entities": [
+      {
+        "tem": "Variable atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "variable conduction",
+    "entities": [
+      {
+        "tem": "Variable atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "high grade atrioventricular block",
+    "entities": [
+      {
+        "tem": "High grade atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "2:1 atrioventricular block",
+    "entities": [
+      {
+        "tem": "2:1 conduction ratio",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "2:1",
+    "entities": [
+      {
+        "tem": "2:1 conduction ratio",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "3:1 atrioventricular block",
+    "entities": [
+      {
+        "tem": "3:1 conduction ratio",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "4:1 atrioventricular block",
+    "entities": [
+      {
+        "tem": "4:1 conduction ratio",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular block, mobitz type 1",
+    "entities": [
+      {
+        "tem": "Atrioventricular Mobitz type 1 block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "mobitz type 1 2nd degree atrioventricular block",
+    "entities": [
+      {
+        "tem": "Atrioventricular Mobitz type 1 block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "mobitz type 2 block",
+    "entities": [
+      {
+        "tem": "Atrioventricular Mobitz type 2 block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "(mobitz type 2)",
+    "entities": [
+      {
+        "tem": "Atrioventricular Mobitz type 2 block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular block, mobitz type 2",
+    "entities": [
+      {
+        "tem": "Atrioventricular Mobitz type 2 block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "mobitz type 2 2nd degree atrioventricular block",
+    "entities": [
+      {
+        "tem": "Atrioventricular Mobitz type 2 block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "complete atrioventricular block",
+    "entities": [
+      {
+        "tem": "3rd degree atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular block, complete (3rd degree)",
+    "entities": [
+      {
+        "tem": "3rd degree atrioventricular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "fascicular block",
+    "entities": [
+      {
+        "tem": "Fascicular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "left posterior fascicular block",
+    "entities": [
+      {
+        "tem": "Left posterior fascicular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lpfb",
+    "entities": [
+      {
+        "tem": "Left posterior fascicular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "left anterior fascicular block",
+    "entities": [
+      {
+        "tem": "Left anterior fascicular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "lafb",
+    "entities": [
+      {
+        "tem": "Left anterior fascicular block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "right bundle branch block",
+    "entities": [
+      {
+        "tem": "Right bundle branch block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "incomplete right bundle branch block",
+    "entities": [
+      {
+        "tem": "Incomplete right bundle branch block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "left bundle branch block",
+    "entities": [
+      {
+        "tem": "Left bundle branch block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "incomplete left bundle branch block",
+    "entities": [
+      {
+        "tem": "Incomplete left bundle branch block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "sinus block",
+    "entities": [
+      {
+        "tem": "Sinus block",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "sinus pause",
+    "entities": [
+      {
+        "tem": "Sinus pause",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular dissociation",
+    "entities": [
+      {
+        "tem": "Atrioventricular dissociation",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ischemia",
+    "entities": [
+      {
+        "tem": "Ischemia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "myocardial ischemia",
+    "entities": [
+      {
+        "tem": "Ischemia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "consider metabolic/ischemic abnormality",
+    "entities": [
+      {
+        "tem": "Ischemia",
+        "descriptors": [
+          "Possible"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "injury",
+    "entities": [
+      {
+        "tem": "Injury",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "myocardial injury",
+    "entities": [
+      {
+        "tem": "Injury",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "infarct",
+    "entities": [
+      {
+        "tem": "Infarction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "myocardial infarct",
+    "entities": [
+      {
+        "tem": "Infarction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "extension of infarct",
+    "entities": [
+      {
+        "tem": "Infarction extension",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "st elevation infarct",
+    "entities": [
+      {
+        "tem": "STEMI",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "posterior extension",
+    "entities": [
+      {
+        "tem": "Posterior extension",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "repolarization abnormality",
+    "entities": [
+      {
+        "tem": "Repolarization abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "repolarization abnormalities",
+    "entities": [
+      {
+        "tem": "Repolarization abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "repolarization changes",
+    "entities": [
+      {
+        "tem": "Repolarization abnormality",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "early repolarization pattern",
+    "entities": [
+      {
+        "tem": "Early repolarization syndrome",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "early repolarization",
+    "entities": [
+      {
+        "tem": "Early repolarization syndrome",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "hyperkalemia",
+    "entities": [
+      {
+        "tem": "Hyperkalemia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "hypercalcemia",
+    "entities": [
+      {
+        "tem": "Hypercalcemia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "hypocalcemia",
+    "entities": [
+      {
+        "tem": "Hypocalcemia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "congenital heart disease",
+    "entities": [
+      {
+        "tem": "Congenital heart disease",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "valvular heart disease",
+    "entities": [
+      {
+        "tem": "Valvular heart disease",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "pericarditis",
+    "entities": [
+      {
+        "tem": "Pericarditis",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "dextrocardia",
+    "entities": [
+      {
+        "tem": "Dextrocardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "repeat with reversed leads",
+    "entities": [
+      {
+        "tem": "Dextrocardia",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "cerebrovascular accident",
+    "entities": [
+      {
+        "tem": "Cerebrovascular accident",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "cva",
+    "entities": [
+      {
+        "tem": "Cerebrovascular accident",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "electronic pacemaker",
+    "entities": [
+      {
+        "tem": "Electronic pacemaker",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "pacemaker",
+    "entities": [
+      {
+        "tem": "Electronic pacemaker",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "no further analysis made because of pacemaker rhythm",
+    "entities": [
+      {
+        "tem": "Electronic pacemaker",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "electronic pacemaker spikes or artifacts",
+    "entities": [
+      {
+        "tem": "Electronic pacemaker spike",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "fusion",
+    "entities": [
+      {
+        "tem": "Fusion complex",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "fusion complexes",
+    "entities": [
+      {
+        "tem": "Fusion complex",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "ventricular fusion",
+    "entities": [
+      {
+        "tem": "Fusion complex",
+        "descriptors": [
+          "Multiple"
+        ]
+      }
+    ]
+  },
+  {
+    "pattern": "pacing",
+    "entities": [
+      {
+        "tem": "Pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "paced rhythm",
+    "entities": [
+      {
+        "tem": "Pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "no further analysis attempted due to paced rhythm",
+    "entities": [
+      {
+        "tem": "Pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "demand",
+    "entities": [
+      {
+        "tem": "Demand pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "<demand pacing>",
+    "entities": [
+      {
+        "tem": "Demand pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "demand pacing",
+    "entities": [
+      {
+        "tem": "Demand pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "interpretation is based on unpaced beats",
+    "entities": []
+  },
+  {
+    "pattern": "ventricular pacing",
+    "entities": [
+      {
+        "tem": "Ventricular pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrial pacing",
+    "entities": [
+      {
+        "tem": "Atrial pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "dual-chamber pacing",
+    "entities": [
+      {
+        "tem": "Dual-chamber pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "dual-chamber electronic pacemaker",
+    "entities": [
+      {
+        "tem": "Dual-chamber pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular sequential pacing",
+    "entities": [
+      {
+        "tem": "Atrioventricular sequential pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrioventricular sequential",
+    "entities": [
+      {
+        "tem": "Atrioventricular sequential pacing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "atrial sensing",
+    "entities": [
+      {
+        "tem": "Atrial sensing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "pacemaker detection suspended due to external noise-review advised",
+    "entities": [
+      {
+        "tem": "Electronic pacemaker malfunction",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "ineffective stimuli",
+    "entities": [
+      {
+        "tem": "Ineffective stimuli",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "loss of sensing",
+    "entities": [
+      {
+        "tem": "Loss of sensing",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "loss of capture",
+    "entities": [
+      {
+        "tem": "Loss of capture",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "qrs changes v3/v4",
+    "entities": [
+      {
+        "tem": "QRS changes V3/V4",
+        "descriptors": []
+      }
+    ]
+  },
+  {
+    "pattern": "changes v3-v4",
+    "entities": [
+      {
+        "tem": "QRS changes V3/V4",
+        "descriptors": []
+      }
+    ]
+  }
+]

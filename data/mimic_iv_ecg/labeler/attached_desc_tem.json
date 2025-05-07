@@ -1,0 +1,112 @@
+[
+  {
+    "resulting_entity": "Inferior ischemia",
+    "entity": "Ischemia",
+    "descriptor": "Inferior"
+  },
+  {
+    "resulting_entity": "Lateral ischemia",
+    "entity": "Ischemia",
+    "descriptor": "Lateral"
+  },
+  {
+    "resulting_entity": "Anterior ischemia",
+    "entity": "Ischemia",
+    "descriptor": "Anterior"
+  },
+  {
+    "resulting_entity": "Septal ischemia",
+    "entity": "Ischemia",
+    "descriptor": "Septal"
+  },
+  {
+    "resulting_entity": "Inferior injury",
+    "entity": "Injury",
+    "descriptor": "Inferior"
+  },
+  {
+    "resulting_entity": "Lateral injury",
+    "entity": "Injury",
+    "descriptor": "Lateral"
+  },
+  {
+    "resulting_entity": "Anterior injury",
+    "entity": "Injury",
+    "descriptor": "Anterior"
+  },
+  {
+    "resulting_entity": "Septal injury",
+    "entity": "Injury",
+    "descriptor": "Septal"
+  },
+  {
+    "resulting_entity": "Inferior infarction",
+    "entity": "Infarction",
+    "descriptor": "Inferior"
+  },
+  {
+    "resulting_entity": "Lateral infarction",
+    "entity": "Infarction",
+    "descriptor": "Lateral"
+  },
+  {
+    "resulting_entity": "Anterior infarction",
+    "entity": "Infarction",
+    "descriptor": "Anterior"
+  },
+  {
+    "resulting_entity": "Septal infarction",
+    "entity": "Infarction",
+    "descriptor": "Septal"
+  },
+  {
+    "resulting_entity": "Infarction, acute",
+    "entity": "Infarction",
+    "descriptor": "Acute"
+  },
+  {
+    "resulting_entity": "2nd degree atrioventricular block",
+    "entity": "Atrioventricular block",
+    "descriptor": "2nd degree"
+  },
+  {
+    "resulting_entity": "Variable atrioventricular block",
+    "entity": "Atrioventricular block",
+    "descriptor": "Variable"
+  },
+  {
+    "resulting_entity": "Variable atrioventricular block",
+    "entity": "Atrioventricular block",
+    "descriptor": "Variable"
+  },
+  {
+    "resulting_entity": "Atrial pacing",
+    "entity": "Electronic pacemaker spike",
+    "descriptor": "Atrial"
+  },
+  {
+    "resulting_entity": "Ventricular pacing",
+    "entity": "Electronic pacemaker spike",
+    "descriptor": "Ventricular"
+  },
+  {
+    "resulting_entity": "Nonspecific T wave abnormality",
+    "entity": "T wave abnormality",
+    "descriptor": "Nonspecific"
+  },
+  {
+    "resulting_entity": "Nonspecific ST wave abnormality",
+    "entity": "ST wave abnormality",
+    "descriptor": "Nonspecific"
+  },
+  {
+    "resulting_entity": "Nonspecific ST-T wave abnormality",
+    "entity": "ST-T wave abnormality",
+    "descriptor": "Nonspecific"
+  },
+  {
+    "resulting_entity": "Nonspecific intraventricular conduction delay",
+    "entity": "Intraventricular conduction delay",
+    "descriptor": "Nonspecific"
+  }
+]
